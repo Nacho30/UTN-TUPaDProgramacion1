@@ -16,7 +16,7 @@ for i in range (5):
         else:
             mensaje_encriptado += letra
     print(f"Mensaje encriptado {i+1}: {mensaje_encriptado}") 
-#---------------------------------------EJERCICIO 2 BUCLE WHILE---------------------------------------
+#---------------------------------------EJERCICIO 2 BUCLE WHILE----------------------------------
 import random
 
 bienvenida2 = "----------Bienvenido al piedra, papel o tijera----------"
