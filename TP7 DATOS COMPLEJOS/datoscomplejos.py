@@ -90,8 +90,8 @@ for i in range(3):
 presentar_ejercicio(7)
 
 alumnos = {
-    'Parcial 1': {'Ana', 'Luis', 'Carlos', 'Marta'},
-    'Parcial 2': {'Luis', 'Marta', 'Jorge', 'Pepe'}
+    'Parcial 1': {'Ana', 'Luis', 'Carlos', 'Marta', 'Pedro', 'Sofía'},
+    'Parcial 2': {'Luis', 'Marta', 'Jorge', 'Pepe', 'Ana', 'María'}
 }
 
 parcial1 = alumnos['Parcial 1']
@@ -110,11 +110,11 @@ print(f'Alumnos que aprobaron al menos un parcial: {al_menos_uno}')
 presentar_ejercicio(8)
 
 supermercado = { # key nombre | value stock
-    'manzana': 50,
-    'banana': 30,
-    'lechuga': 20,
+    'sandia': 50,
+    'palta': 30,
+    'aji': 20,
     'tomate': 25,
-    'cebolla': 15
+    'pera': 5
 }
 
 consulta_8 = input('Ingrese el nombre del producto a consultar: ').lower().split()
